@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "Casa moderna en zona norte",
+      "slug": "casa-moderna-zona-norte",
+      "type": "HOUSE",
+      "operationType": "SALE",
+      "status": "ACTIVE",
+      "price": 120000,
+      "currency": "USD",
+      "address": {
+        "neighborhood": "Yerba Buena",
+        "city": "San Miguel de Tucumán",
+        "state": "Tucumán",
+        "country": "AR",
+        "showExactAddress": true
+      },
+      "features": {
+        "totalArea": 250,
+        "coveredArea": 180,
+        "rooms": 5,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "garages": 2
+      },
+      "images": [
+        "https://picsum.photos/seed/house1/400/300"
+      ],
+      "publishedAt": "2026-04-01T10:00:00.000Z",
+      "createdAt": "2026-03-20T12:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Departamento céntrico",
+      "slug": "departamento-centrico",
+      "type": "APARTMENT",
+      "operationType": "RENT",
+      "status": "ACTIVE",
+      "price": 350000,
+      "currency": "ARS",
+      "address": {
+        "neighborhood": "Centro",
+        "city": "Salta",
+        "state": "Salta",
+        "country": "AR",
+        "showExactAddress": false
+      },
+      "features": {
+        "coveredArea": 60,
+        "rooms": 3,
+        "bedrooms": 2,
+        "bathrooms": 1
+      },
+      "images": [
+        "https://picsum.photos/seed/apt1/400/300"
+      ],
+      "publishedAt": "2026-04-05T09:00:00.000Z",
+      "createdAt": "2026-04-01T15:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Terreno en barrio privado",
+      "slug": "terreno-barrio-privado",
+      "type": "LAND",
+      "operationType": "SALE",
+      "status": "PAUSED",
+      "price": 45000,
+      "currency": "USD",
+      "address": {
+        "neighborhood": "La Almudena",
+        "city": "Salta",
+        "state": "Salta",
+        "country": "AR",
+        "showExactAddress": true
+      },
+      "features": {
+        "totalArea": 600
+      },
+      "images": [
+        "https://picsum.photos/seed/land1/400/300"
+      ],
+      "publishedAt": null,
+      "createdAt": "2026-03-15T11:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Local comercial en avenida principal",
+      "slug": "local-comercial-avenida",
+      "type": "COMMERCIAL",
+      "operationType": "RENT",
+      "status": "ACTIVE",
+      "price": 800000,
+      "currency": "ARS",
+      "address": {
+        "neighborhood": "Macrocentro",
+        "city": "Salta",
+        "state": "Salta",
+        "country": "AR",
+        "showExactAddress": true
+      },
+      "features": {
+        "coveredArea": 120,
+        "bathrooms": 1
+      },
+      "images": [
+        "https://picsum.photos/seed/local1/400/300"
+      ],
+      "publishedAt": "2026-04-10T08:00:00.000Z",
+      "createdAt": "2026-04-08T10:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Oficina premium en edificio corporativo",
+      "slug": "oficina-premium",
+      "type": "OFFICE",
+      "operationType": "SALE",
+      "status": "RESERVED",
+      "price": 95000,
+      "currency": "USD",
+      "address": {
+        "neighborhood": "Centro",
+        "city": "Córdoba",
+        "state": "Córdoba",
+        "country": "AR",
+        "showExactAddress": false
+      },
+      "features": {
+        "coveredArea": 80,
+        "rooms": 2,
+        "bathrooms": 1
+      },
+      "images": [
+        "https://picsum.photos/seed/office1/400/300"
+      ],
+      "publishedAt": "2026-04-02T14:00:00.000Z",
+      "createdAt": "2026-03-28T16:00:00.000Z"
+    }
+  ],
+  "meta": {
+    "total": 5,
+    "page": 1,
+    "perPage": 20,
+    "totalPages": 1,
+    "hasNextPage": false,
+    "hasPreviousPage": false
+  }
+}

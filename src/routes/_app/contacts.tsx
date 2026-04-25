@@ -1,0 +1,10 @@
+import { createFileRoute, Outlet } from '@tanstack/react-router'
+
+export const Route = createFileRoute('/_app/contacts')({
+  component: ContactComponent,
+})
+
+function ContactComponent() {
+  return <Outlet/>
+}
+

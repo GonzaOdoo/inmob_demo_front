@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* =========================
+   THEME (Tailwind v4)
+   ========================= */
+@theme {
+  --color-primary: #6AB897;
+  --color-secondary: #7ED6B2;
+  --color-tertiary: #2C3A33;
+
+  --color-background: #121715;
+  --color-card: #1A2420;
+  --color-border: #2A3A33;
+  --color-muted: #9CA3AF;
+  --color-foreground: #ffffff;
+
+  --radius: 0.75rem;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+/* =========================
+   SHADCN COMPAT
+   ========================= */
+:root {
+  --background: var(--color-background);
+  --foreground: var(--color-foreground);
+
+  --card: var(--color-card);
+  --border: var(--color-border);
+
+  --primary: var(--color-primary);
+  --secondary: var(--color-secondary);
+
+  --muted: var(--color-muted);
+}
+
+/* =========================
+   BASE
+   ========================= */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
